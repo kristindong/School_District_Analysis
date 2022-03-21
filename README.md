@@ -52,7 +52,7 @@ Replacing the Thomas High School 9th grade scores had the following impacts:
 * Math and reading scores by grade - the change set Thomas High School's 9th grade scores to NaN. It did not impact the School's average math and reading     scores for 10th, 11th, and 12th grades.
 
 After change 
-  ![THS_new](THS_new.png)
+  ![ByGrade_reading_new](ByGrade_reading_new.png)
 
 * Scores by school spending
 
