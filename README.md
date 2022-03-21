@@ -23,25 +23,31 @@ https://github.com/kristindong/School_District_Analysis/blob/ac6d7f1f7040e63f716
 
 
 ## Results
-Replacing the math and reading scores had the following impact:
+Replacing the Thomas High School 9th grade scores had the following impacts:
 
-* District summary - district average scores and passing rates changed 
+* District summary - average scores and passing rates all decreased compared to the original analysis
 
-  Before change
+  Before change:
+  
   ![District_Summary_old](District_Summary_old.png)
   
-  After change
+  After change:
+  
   ![District_Summary_new](District_Summary_new.png)
   
-* School summary
+  
+* School summary - Thomas High School's average reading score increased while math sccoe and all passing rates decreased
 
-  Before change
+  Before change:
+  
   ![THS_old](THS_old.png)
   
-  After change
+  After change:
+  
   ![THS_new](THS_new.png)
   
-* School ranking
+* School ranking - the change did not impact Thomas High School's ranking. It's still ranked 2nd based on overall passing percentage.
+
 
 * Math and reading scores by grade
 
