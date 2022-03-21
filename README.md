@@ -71,7 +71,7 @@ The changes to the school district analysis can be summarized as follows:
 1. District average scores and passing rates all decreased compared to the original analysis
 2. Thomas High School's average reading score increased while math score, math passing rate, reading rate and overall passing rate  decreased
 3. Thomas High School's ranking remains at 2nd place based on overall passing rate
-4. The average reading score increased while math score, math passing rate, reading passing rate, and overall passing rate decreased, for the following categrories:
+4. For the following categrories, ehe average reading score increased, while the math score, math passing rate, reading passing rate, and overall passing rate decreased:
     - $631-$645 spending range
     - Medium-sized schools
     - Charter schools
