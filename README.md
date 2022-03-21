@@ -12,8 +12,13 @@ The analysis consists of the following:
 6. The scores by school spending per student, by school size, and by school type
 
 ## Resources
-- Data Source: schools_complete.csv, students_complete.csv
-  https://github.com/kristindong/Election_Analysis/blob/4c7f05a4710c51b1c07ac23febef6c424507e598/Resources/election_results.csv
+Data Source: 
+
+schools_complete.csv
+
+students_complete.csv
+
+
 
 
 ## Results
