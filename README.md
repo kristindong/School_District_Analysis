@@ -49,16 +49,10 @@ Replacing the Thomas High School 9th grade scores had the following impacts:
 * School ranking - the change did not impact Thomas High School's ranking. It's still ranked 2nd based on overall passing percentage.
 
 
-* Math and reading scores by grade
+* Math and reading scores by grade - the change set Thomas High School's 9th grade scores to NaN. It did not impact the School's average math and reading     scores for 10th, 11th, and 12th grades.
 
-  Before change:
-  
-  ![Grade_old](Grade_old.png)
-  
-  After change:
-  
-  ![Grade_new](Grade_new.png)
-  
+After change 
+  ![THS_new](THS_new.png)
 
 * Scores by school spending
 
