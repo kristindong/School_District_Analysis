@@ -36,7 +36,7 @@ Replacing the Thomas High School 9th grade scores had the following impacts:
   ![District_Summary_new](District_Summary_new.png)
   
   
-* School summary - Thomas High School's average reading score increased while math sccoe and all passing rates decreased
+* School summary - Thomas High School's average reading score increased while math score, math passing rate, reading rate and overall passing rate  decreased
 
   Before change:
   
@@ -49,34 +49,31 @@ Replacing the Thomas High School 9th grade scores had the following impacts:
 * School ranking - the change did not impact Thomas High School's ranking. It's still ranked 2nd based on overall passing percentage.
 
 
-* Math and reading scores by grade - the change set Thomas High School's 9th grade scores to NaN. It did not impact the School's average math and reading     scores for 10th, 11th, and 12th grades.
+* Math and reading scores by grade - the change set Thomas High School's 9th grade math and reading scores to NaN. It did not impact the School's average math and reading     scores for 10th, 11th, and 12th grades.
 
-After change 
+  After change math scores by grade:
+
   ![ByGrade_reading_new](ByGrade_reading_new.png)
 
-* Scores by school spending
 
-* Scores by school size
-
-* Scores by school type
+* Scores by school spending - the change impacted the $631-$645 per student spending range. It increased the range's average reading score while lowering the math score, math passing rate, reading passing rate, and overall passing rate. It did not impact the metrics for other spending ranges.
 
 
-A sample of the script and results displayed in Visual Studio Code:
+* Scores by school size - the change increased the medium-sized school average reading score while lowering math score, math passing rate, reading passing rate, and overall passing rate. It did not impact the metrics for other school sizes.
 
-![VSCode_screenshot](VSCode_screenshot.png)
-
-The text file containing the audit results is saved here:
-https://github.com/kristindong/Election_Analysis/blob/50a03a50484d6af8364f489912598d382ab73a71/analysis/election_analysis.txt
+* Scores by school type - the change increased the Charter school average reading score while lowering math score, math passing rate, reading passing rate, and overall passing rate. It did not impact the metrics for District schools.
 
 
 ## Summary
-With some modifications, the Python script used for this election audit can be used for any election, provided that the data is stored in csv format and contain county and candidate name for each vote cast. 
 
-1. The name and path of the election results csv file and election analysis text file may need to be modified if the file name and location are not the same as those used in the code.
+The changes to the school district analysis can be summarized as follows:
 
-![Code_Modification_1](Code_Modification_1.png)
+1. District average scores and passing rates all decreased compared to the original analysis
+2. Thomas High School's average reading score increased while math score, math passing rate, reading rate and overall passing rate  decreased
+3. Thomas High School's ranking remains at 2nd place based on overall passing rate
+4. The average reading score increased while math score, math passing rate, reading passing rate, and overall passing rate decreased, for the following categrories:
+    - $631-$645 spending range
+    - Medium-sized schools
+    - Charter schools
 
 
-2. If county and candidate name are not in columns 2 and 3, respectively, the the index values in the code below will need to be adjusted to reflect the columns they are stored in the data file. 
-
-![Code_Modification_2](Code_Modification_2.png)
