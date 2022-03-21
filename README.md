@@ -1,7 +1,7 @@
 # School District Analysis
 
 ## Overview
-In a previous analysis, school performance based on math and reading scores were evaluated for 15 high schools in the school district. However, the school board suspects that the grades for Thomas High School ninth graders were unreliable, and requested that the analysis be re-run ignoring the grades in question. To accomplish this, math and reading grades for Thomas High School ninth graders were set to NaNs in the data.
+In a previous analysis, school performance based on math and reading scores were evaluated for 15 high schools in the school district. However, the school board suspects that the grades for Thomas High School ninth graders were altered, and requested that the analysis be re-run ignoring the grades in question. To accomplish this, math and reading grades for Thomas High School ninth graders were set to NaNs in the data.
 
 The analysis consists of the following:
 1. Overall average scores, passing rates, school statistics for the district 
@@ -17,12 +17,24 @@ The analysis consists of the following:
 
 
 ## Results
-Replacing the ninth graders' math and reading scores changed the
+Replacing the math and reading scores had the following impact:
 
-* Disstrict summary
+* District summary - district average scores and passing rates changed 
 
+  Before change
+  ![District_Summary_old](District_Summary_old.png)
+  
+  After change
+  ![District_Summary_new](District_Summary_new.png)
+  
 * School summary
 
+  Before change
+  ![District_Summary_old](District_Summary_old.png)
+  
+  After change
+  ![District_Summary_new](District_Summary_new.png)
+  
 * School ranking
 
 * Math and reading scores by grade
