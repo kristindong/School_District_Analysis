@@ -30,10 +30,10 @@ Replacing the math and reading scores had the following impact:
 * School summary
 
   Before change
-  ![District_Summary_old](District_Summary_old.png)
+  ![THS_old](THS_old.png)
   
   After change
-  ![District_Summary_new](District_Summary_new.png)
+  ![THS_new](THS_new.png)
   
 * School ranking
 
