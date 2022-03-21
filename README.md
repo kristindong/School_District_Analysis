@@ -15,9 +15,10 @@ The analysis consists of the following:
 Data Source: 
 
 schools_complete.csv
+https://github.com/kristindong/School_District_Analysis/blob/ac6d7f1f7040e63f716088a5d304443bf3a4360f/Resources/schools_complete.csv
 
 students_complete.csv
-
+https://github.com/kristindong/School_District_Analysis/blob/ac6d7f1f7040e63f716088a5d304443bf3a4360f/Resources/students_complete.csv
 
 
 
