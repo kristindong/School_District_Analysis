@@ -51,6 +51,15 @@ Replacing the Thomas High School 9th grade scores had the following impacts:
 
 * Math and reading scores by grade
 
+  Before change:
+  
+  ![Grade_old](Grade_old.png)
+  
+  After change:
+  
+  ![Grade_new](Grade_new.png)
+  
+
 * Scores by school spending
 
 * Scores by school size
